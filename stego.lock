@@ -1,0 +1,21 @@
+[anvil]
+version = "2.1.0"
+kern = "amboso-C"
+
+[build]
+
+source = "main.c"
+bin = "rlgol"
+dir = "build"
+makevers = "0.0.0"
+automakevers = "3.0.0"
+tests = "kazoj"
+
+[tests]
+
+testsdir = "bone"
+errortestsdir = "kulpo"
+
+[ versions ]
+
+"0.1.0" = "First version"
